@@ -9,7 +9,7 @@ export default function Create() {
     year : ""
   })
   const navigate = useNavigate()
-  const API_URL = "http://localhost:5001/books"
+  const API_URL = "https://day13-1bckend.onrender.com/books"
 
   const handleSubmit= async (e)=>{
     e.preventDefault()
