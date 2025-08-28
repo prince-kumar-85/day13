@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function List() {
   const [books,setBooks] = useState([])
 
-  const API_URL = 'http://localhost:5001/books'
+  const API_URL = 'https://day13-1bckend.onrender.com/books'
 
     useEffect(()=>{
         axios.get(API_URL)
